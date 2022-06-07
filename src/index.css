@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@ayer base{
+    /* body{
+        font-family: Playfair Display, sans-serif; 
+    } */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components{
+
+    .outline-btn-primary {
+        display: inline-block;
+        background-color: transparent;
+        color: #000;
+        padding: 0.5rem 2rem;
+        font-family: "Playfair Display", serif;
+        border: 0;
+        box-sizing: border-box;
+        box-shadow: inset 0 0 0 1px #000;
+        position: relative;
+        vertical-align: middle;
+        transition: color .5s;
+    }
+
+
+    .outline-btn-primary:hover:before {
+        border-top-color: #8a5dc8;
+        border-right-color: #8a5dc8;
+        transition: width .5s ease-out, height .5s ease-out .5s;
+    }
+
+    .outline-btn-primary:hover:after,
+    .outline-btn-primary:hover:before {
+        width: 100%;
+        height: 100%;
+    }
+
+    .outline-btn-primary:before {
+        top: 0;
+        left: 0;
+    }
+ 
+    .outline-btn-primary:after,
+    .outline-btn-primary:before {
+        box-sizing: inherit;
+        content: '';
+        position: absolute;
+        border: 2px solid transparent;
+        width: 0;
+        height: 0;
+    } 
+
+    .outline-btn-primary:hover:after {
+        top: 0;
+        left: 0;
+        border-bottom-color: #8a5dc8;
+        border-left-color: #8a5dc8;
+        transition: height .5s ease-out, width .5s ease-out .5s;
+    }
 }
