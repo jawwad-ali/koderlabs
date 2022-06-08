@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      display: ['"Playfair Display"', 'sans-serif'],
-      body: ['"Playfair Display"', 'sans-serif'],
-      roboto: ["Roboto", 'sans-serif'],
+      display: ['"Playfair Display"', 'serif'],
+      body: ['"Playfair Display"', 'serif'],
+      roboto: ["Roboto", "Helvetica Neue", "sans-serif"],
     },
     colors: {
       CustomPurple: "#8a5dc8",

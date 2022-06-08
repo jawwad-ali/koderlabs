@@ -10,6 +10,18 @@
 }
 
 @layer components{
+    .animateSidebar{
+        animation: slideIn 0.5s ease-in-out;
+    }
+
+    @keyframes slideIn { 
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
 
     .outline-btn-primary {
         display: inline-block;
