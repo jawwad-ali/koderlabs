@@ -3,7 +3,7 @@ import React from "react";
 const Offer = () => {
   return (
     <div
-      className="w-full mt-40 pb-12 mb-12 "
+      className="w-full pb-12 mb-12"
       style={{ boxShadow: "0 0 10px rgb(0 0 0 / 20%)" }}
     >
       <div className="max-w-6xl mx-auto">

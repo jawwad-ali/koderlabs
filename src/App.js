@@ -1,4 +1,4 @@
-import { Nav, HeroSection, Offer } from "./components"
+import { Nav, HeroSection, Offer, Softwares, Platform } from "./components"
 import AOS from 'aos';
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -12,11 +12,17 @@ function App() {
     AOS.refresh()
   }, []);
 
+  useEffect(() => {
+    console.log(window.pageYOffset)
+  }, [window.pageYOffset])
+
   return (
     <div>
       <Nav />
       <HeroSection />
       <Offer />
+      <Softwares />
+      <Platform />
     </div>
   );
 }

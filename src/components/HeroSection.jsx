@@ -11,7 +11,8 @@ const HeroSection = () => {
     const options = {
       strings: ["Collaboration.", "Expertise.", "Delivery."],
       typeSpeed: 50,
-      backSpeed: 50,
+      backSpeed: 25,
+      deplay: 100,
       showCursor: false,
       loop: true,
     };
@@ -21,7 +22,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="w-full">
+    <div className="w-full pb-20">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col ml-20 pt-24">
           <div className="flex flex-row">
@@ -42,7 +43,7 @@ const HeroSection = () => {
             <div className="type-wrap">
               <span
                 style={{ whiteSpace: "pre" }}
-                className="text-CustomPurple "
+                className="text-CustomPurple"
                 ref={el}
               />
             </div>
