@@ -20,11 +20,11 @@ const HeroSection = () => {
     // elRef refers to the <span> rendered below
     typed.current = new Typed(el.current, options);
   }, []);
- 
+
   return (
     <div className="w-full pb-20">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col lg:ml-20 lg:pt-24 md:pt-0 md:ml-28 mx-auto p-16">
+        <div className="flex flex-col lg:ml-20 lg:pt-24 md:pt-0 md:ml-28 mx-auto p-16 md:p-0">
           <div className="flex flex-row">
             <div className="border-4 border-CustomPurple w-6 h-6 animate-bounce mt-12 font-extrabold" />
             <h1
@@ -37,10 +37,10 @@ const HeroSection = () => {
           <p className="font-roboto md:text-4xl mt-8 ml-4 md:mt-4 leading-tight text-xl">
             Software Development beyond expectations! We strive to mesmerize
             through
-            <div className="type-wrap h-15">
-              <span
-                style={{ whiteSpace: "pre" }}
-                className="text-CustomPurple"
+            <div className="type-wrap h-[5rem] whitespace-nowrap">
+              <div
+                style={{ whiteSpace: "nowrap" }}
+                className="text-CustomPurple text-4xl"
                 ref={el}
               />
             </div>

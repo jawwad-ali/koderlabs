@@ -13,7 +13,7 @@ const Platform = () => {
     <div className="w-full mb-20">
       <div className="lg:max-w-5xl mx-auto md:max-w-xl">
         <div className="flex">
-          <div className="flex mx-auto">
+          <div className="flex mx-auto md:mx-0">
             <div className="border-4 border-CustomPurple w-6 h-6 animate-bounce mt-12 font-extrabold" />
             <h2 className="md:text-5xl text-4xl font-body font-bold text-[#202020] not-italic leading-tight md:-ml-2">
               Platforms <br /> We Work On{" "}
