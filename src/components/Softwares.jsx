@@ -50,17 +50,17 @@ const Softwares = () => {
       className="w-full my-10 py-20 h-auto duration-500"
       style={{ backgroundColor }}
     >
-      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
+      <div className="max-w-6xl flex-col pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto w-full">
           <h2
-            className="text-white text-[52px] py-3"
+            className="text-white md:text-[52px] text-[40px] py-3"
             data-aos="fade-down"
             data-aos-duration="300"
           >
             Momentpin
           </h2>
-          <p className="text-white text-2xl">
+          <p className="text-white md:text-2xl text-lg">
             Our expert software development company successfully designed and
             developed a Social App to Capture & Share Blissful Moments in Your
             Life.
@@ -81,11 +81,11 @@ const Softwares = () => {
               data-aos-duration="500"
             />
           </div>
-          <div className="mt-5 ">
+          <div className="mt-5 mb-14">
             <button
               data-aos="fade-up"
               data-aos-duration="300"
-              className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
+              className="text-white border-2 md:text-[15px] text-[12px] font-body md:py-3 md:px-8 py-2 px-5 flex"
             >
               <div className="hover:translate-x-2 duration-300">
                 Case Study{" "}
@@ -117,17 +117,17 @@ const Softwares = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
+      <div className="max-w-6xl flex-col pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
         <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
           <h2
-            className="text-white text-[52px] py-3"
+            className="text-white md:text-[52px] text-[40px] py-3"
             data-aos="fade-down"
             data-aos-duration="300"
           >
             Shoptalk
           </h2>
-          <p className="text-white text-2xl">
+          <p className="text-white lg:text-2xl text-lg">
             Not just any online store, Shoptalk delivers shoppers with a whole
             new experience of fashion exploration and social networking.
           </p>
@@ -137,7 +137,7 @@ const Softwares = () => {
           </div>
           <div className="mt-5">
             <button
-              className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
+              className="text-white border-2 text-[15px] font-body md:py-3 md:px-8 py-2 px-5 flex"
               data-aos="fade-up"
               data-aos-duration="300"
             >
@@ -155,17 +155,17 @@ const Softwares = () => {
             <img
               src={Phoneleft}
               alt="Close"
-              className="lg:w-[80%] md:w-[80%]  h-auto"
+              className="lg:w-[80%] md:w-[80%] h-auto pr-24 md:pr-0 mt-4 md:mt-0"
             />
           </div>
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
+      <div className="max-w-6xl flex-col pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
         <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
-          <h2 className="text-white text-[52px] py-3">Event Slack</h2>
-          <p className="text-white text-2xl">
+          <h2 className="text-white md:text-[52px] text-[40px] py-3">Event Slack</h2>
+          <p className="text-white lg:text-2xl text-lg">
             Our custom software development company Houston has stepped in and
             renovated the concept of socializing. You will never miss out on an
             event near you.
@@ -173,7 +173,7 @@ const Softwares = () => {
 
           <div className="mt-5">
             <button
-              className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
+              className="text-white border-2 text-[15px] font-body md:py-3 md:px-8 py-2 px-5 flex"
               data-aos="fade-up"
               data-aos-duration="300"
             >
@@ -190,16 +190,16 @@ const Softwares = () => {
           <img
             src={EventSlackMac}
             alt="Close"
-            className="w-[80%] h-auto mx-auto "
+            className="w-[80%] h-auto mx-auto md:pr-0 mt-4 md:mt-0"
           />
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
+      <div className="max-w-6xl flex-col pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
         <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
-          <h2 className="text-white text-[52px] py-3">Shopwell</h2>
-          <p className="text-white text-2xl">
+          <h2 className="text-white md:text-[52px] text-[40px] py-3">Shopwell</h2>
+          <p className="text-white lg:text-2xl text-lg">
             We’ve stepped in to digitalize and renovate the concept of shopping.
             Customers can find their favorite clothes and accessories at amazing
             discounts and deals.
@@ -207,7 +207,7 @@ const Softwares = () => {
 
           <div className="mt-5">
             <button
-              className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
+              className="text-white border-2 text-[15px] font-body md:py-3 md:px-8 py-2 px-5 flex"
               data-aos="fade-up"
               data-aos-duration="300"
             >
@@ -224,16 +224,16 @@ const Softwares = () => {
           <img
             src={BannerPhone}
             alt="Close"
-            className="w-[80%] h-auto mx-auto "
+            className="w-[80%] h-auto mx-auto md:pr-0 mt-4 md:mt-0"
           />
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
+      <div className="max-w-6xl flex-col pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
         <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
-          <h2 className="text-white text-[52px] py-3">1 deal</h2>
-          <p className="text-white text-2xl">
+          <h2 className="text-white md:text-[52px] text-[40px] py-3">1 deal</h2>
+          <p className="text-white lg:text-2xl text-lg">
             The combined effort of our expert software developers has resulted
             in an amazing eCommerce store that offers premium products at the
             best deals and discounts.
@@ -241,7 +241,7 @@ const Softwares = () => {
 
           <div className="mt-5">
             <button
-              className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
+              className="text-white border-2 text-[15px] font-body md:py-3 md:px-8 py-2 px-5 flex"
               data-aos="fade-up"
               data-aos-duration="300"
             >
@@ -258,16 +258,16 @@ const Softwares = () => {
           <img
             src={SnapShotMiddle}
             alt="Close"
-            className="w-[80%] h-auto mx-auto "
+            className="w-[80%] h-auto mx-auto md:pr-0 mt-4 md:mt-0"
           />
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
+      <div className="max-w-6xl flex-col pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
         <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
-          <h2 className="text-white text-[52px] py-3">eSupplySystem</h2>
-          <p className="text-white text-2xl">
+          <h2 className="text-white md:text-[52px] text-[40px] py-3">eSupplySystem</h2>
+          <p className="text-white lg:text-2xl text-lg">
             A modern profit management system that can connect customers with
             budget-friendly and authentic retailers. Meeting the customer’s
             needs quality standards.
@@ -275,7 +275,7 @@ const Softwares = () => {
 
           <div className="mt-5">
             <button
-              className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
+              className="text-white border-2 text-[15px] font-body md:py-3 md:px-8 py-2 px-5 flex"
               data-aos="fade-up"
               data-aos-duration="300"
             >
@@ -293,11 +293,11 @@ const Softwares = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
+      <div className="max-w-6xl flex-col pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
         <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
-          <h2 className="text-white text-[52px] py-3">Altanova</h2>
-          <p className="text-white text-2xl">
+          <h2 className="text-white md:text-[52px] text-[40px] py-3">Altanova</h2>
+          <p className="text-white lg:text-2xl text-lg">
             Auto-manage your company’s work log with an efficient and modern
             management solution. We deliver full turn-key test interface
             solutions and log management.
@@ -305,7 +305,7 @@ const Softwares = () => {
 
           <div className="mt-5 ">
             <button
-              className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
+              className="text-white border-2 text-[15px] font-body md:py-3 md:px-8 py-2 px-5 flex"
               data-aos="fade-up"
               data-aos-duration="300"
             >
@@ -322,7 +322,7 @@ const Softwares = () => {
           <img
             src={HrScreen}
             alt="Close"
-            className="w-[80%] md:w-[55%] h-auto mx-auto "
+            className="w-[80%] md:w-[55%] h-auto mx-auto pl-5 md:pr-0 mt-4 md:mt-0"
           />
         </div>
       </div>

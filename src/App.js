@@ -17,7 +17,7 @@ function App() {
   }, [window.pageYOffset])
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Nav />
       <HeroSection />
       <Offer />
