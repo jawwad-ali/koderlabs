@@ -24,23 +24,22 @@ const HeroSection = () => {
   return (
     <div className="w-full pb-20">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col ml-20 pt-24">
+        <div className="flex flex-col lg:ml-20 lg:pt-24 md:pt-0 md:ml-28">
           <div className="flex flex-row">
             <div className="border-4 border-CustomPurple w-6 h-6 animate-bounce mt-12 font-extrabold" />
             <h1
-              className="text-[52px] font-body font-bold text-[#202020] not-italic leading-tight -ml-2"
+              className="md:text-[52px] text-[44px] font-body font-bold text-[#202020] not-italic leading-tight -ml-2"
               data-aos="zoom-in"
             >
               Where Technology & <br /> Innovation Inspire
             </h1>
           </div>
           <p
-            className="font-roboto text-4xl mt-8 ml-4 leading-tight"
-            data-aos="fade-up"
+            className="font-roboto text-4xl mt-8 ml-4 md:mt-4 leading-tight"
           >
             Software Development beyond expectations! We strive <br /> to
             mesmerize through
-            <div className="type-wrap">
+            <div className="type-wrap h-15">
               <span
                 style={{ whiteSpace: "pre" }}
                 className="text-CustomPurple"

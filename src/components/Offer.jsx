@@ -7,15 +7,15 @@ const Offer = () => {
       style={{ boxShadow: "0 0 10px rgb(0 0 0 / 20%)" }}
     >
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col ml-20 mt-24">
+        <div className="flex flex-col ml-20 mt-24 lg:max-w-5xl">
           <h2
-            className="text-[47px] font-body my-8 font-bold text-[#202020] not-italic leading-tight -ml-2"
+            className="text-[47px] font-body my-8 font-bold text-[#202020] not-italic leading-tight"
             data-aos="fade-up"
           >
             Custom Software <br /> Development Company Houston
             <span className="text-[#391f5b] font-bold text-[33px]">
               {" "}
-              ... Devoted To Your <br /> Business Plan
+              ... Devoted To Your Business Plan
             </span>
           </h2>
           <div>

@@ -11,7 +11,7 @@ const Platform = () => {
 
   return (
     <div className="w-full mb-5">
-      <div className="max-w-5xl mx-auto">
+      <div className="lg:max-w-5xl mx-auto md:max-w-xl">
         <div className="flex">
           <div className="border-4 border-CustomPurple w-6 h-6 animate-bounce mt-12 font-extrabold" />
           <h2 className="text-5xl font-body font-bold text-[#202020] not-italic leading-tight -ml-2">
@@ -21,14 +21,14 @@ const Platform = () => {
       </div>
 
       {/* Platform Section */}
-      <div className="w-full bg-[#f7f7f7] mt-24 border-box">
+      <div className="w-full bg-[#f7f7f7] mt-24 border-box md:justify-around">
         <div
-          className="flex justify-between max-w-6xl mx-auto"
+          className="flex justify-between lg:max-w-6xl md:max-w-[44rem] mx-auto"
           data-aos="fade-right"
           duration="400"
         >
           <div
-            className="flex w-full flex-col justify-center items-center py-10 px-5 hover:bg-[#391F5B] hover:text-white cursor-pointer"
+            className="flex w-full flex-col justify-center items-center h-[18rem] py-10 px-5 hover:bg-[#391F5B] hover:text-white cursor-pointer"
             onMouseOver={() => setWebDiv(true)}
             onMouseOut={() => setWebDiv(false)}
           >
@@ -43,7 +43,7 @@ const Platform = () => {
           </div>
 
           <div
-            className="flex flex-col w-full justify-center items-center py-10 px-5 hover:bg-[#391F5B] hover:text-white cursor-pointer"
+            className="flex flex-col w-full justify-center items-center py-10 px-5 h-[18rem] hover:bg-[#391F5B] hover:text-white cursor-pointer"
             onMouseOver={() => setIOSDiv(true)}
             onMouseOut={() => setIOSDiv(false)}
           >
@@ -58,7 +58,7 @@ const Platform = () => {
           </div>
 
           <div
-            className="flex flex-col w-full justify-center items-center py-10 px-5 hover:bg-[#391F5B] hover:text-white cursor-pointer"
+            className="flex flex-col w-full justify-center items-center py-10 px-5 h-[18rem] hover:bg-[#391F5B] hover:text-white cursor-pointer"
             onMouseOver={() => setAndroid(true)}
             onMouseOut={() => setAndroid(false)}
           >
@@ -73,7 +73,7 @@ const Platform = () => {
           </div>
 
           <div
-            className="flex flex-col w-full justify-center items-center py-10 px-5 hover:bg-[#391F5B] hover:text-white cursor-pointer"
+            className="flex flex-col w-full justify-center items-center py-10 px-5 h-[18rem] hover:bg-[#391F5B] hover:text-white cursor-pointer"
             onMouseOver={() => setHybird(true)}
             onMouseOut={() => setHybird(false)}
           >
@@ -88,7 +88,7 @@ const Platform = () => {
           </div>
 
           <div
-            className="flex flex-col w-full justify-center items-center py-10 px-5 hover:bg-[#391F5B] hover:text-white cursor-pointer"
+            className="flex flex-col w-full justify-center items-center py-10 px-5 h-[18rem] hover:bg-[#391F5B] hover:text-white cursor-pointer"
             onMouseOver={() => setWearables(true)}
             onMouseOut={() => setWearables(false)}
           >
@@ -103,7 +103,7 @@ const Platform = () => {
           </div>
 
           <div
-            className="flex flex-col w-full justify-center items-center py-10 px-5 hover:bg-[#391F5B] hover:text-white cursor-pointer"
+            className="flex flex-col w-full justify-center items-center py-10 px-5 h-[18rem] hover:bg-[#391F5B] hover:text-white cursor-pointer"
             onMouseOver={() => setIot(true)}
             onMouseOut={() => setIot(false)}
           >

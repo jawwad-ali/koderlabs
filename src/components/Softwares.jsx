@@ -50,9 +50,9 @@ const Softwares = () => {
       className="w-full my-10 py-20 h-auto duration-500"
       style={{ backgroundColor }}
     >
-      <div className="max-w-6xl pt-80 mx-auto flex ">
+      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto">
           <h2
             className="text-white text-[52px] py-3"
             data-aos="fade-down"
@@ -81,7 +81,7 @@ const Softwares = () => {
               data-aos-duration="500"
             />
           </div>
-          <div className="mt-5">
+          <div className="mt-5 ">
             <button
               data-aos="fade-up"
               data-aos-duration="300"
@@ -96,7 +96,7 @@ const Softwares = () => {
         </div>
 
         {/* Right Col */}
-        <div>
+        <div className="md:mt-5 lg:mt-0 md:mx-auto">
           <div className="h-[150px] ">
             <img src={Close} alt="Close" data-aos="fade-right" />
           </div>
@@ -112,14 +112,14 @@ const Softwares = () => {
             <img src={Number} alt="Number" data-aos="fade-left" />
           </div>
           <div className="-mt-52">
-            <img src={Label} alt="Label" data-aos="fade-left" />
+            <img src={Label} alt="Label" data-aos="fade-right" />
           </div>
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex">
+      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
           <h2
             className="text-white text-[52px] py-3"
             data-aos="fade-down"
@@ -150,16 +150,20 @@ const Softwares = () => {
         </div>
 
         {/* Right Col */}
-        <div>
-          <div>
-            <img src={Phoneleft} alt="Close" className="w-[80%] h-auto" />
+        <div className="md:mx-auto">
+          <div className="md:mt-5 lg:mt-0 md:mx-auto">
+            <img
+              src={Phoneleft}
+              alt="Close"
+              className="lg:w-[80%] md:w-[80%]  h-auto"
+            />
           </div>
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex">
+      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
           <h2 className="text-white text-[52px] py-3">Event Slack</h2>
           <p className="text-white text-2xl">
             Our custom software development company Houston has stepped in and
@@ -182,7 +186,7 @@ const Softwares = () => {
         </div>
 
         {/* Right Col */}
-        <div className="mx-auto">
+        <div className="mx-auto md:mt-5">
           <img
             src={EventSlackMac}
             alt="Close"
@@ -191,9 +195,9 @@ const Softwares = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex">
+      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
           <h2 className="text-white text-[52px] py-3">Shopwell</h2>
           <p className="text-white text-2xl">
             We’ve stepped in to digitalize and renovate the concept of shopping.
@@ -225,9 +229,9 @@ const Softwares = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex">
+      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
           <h2 className="text-white text-[52px] py-3">1 deal</h2>
           <p className="text-white text-2xl">
             The combined effort of our expert software developers has resulted
@@ -259,9 +263,9 @@ const Softwares = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex">
+      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
           <h2 className="text-white text-[52px] py-3">eSupplySystem</h2>
           <p className="text-white text-2xl">
             A modern profit management system that can connect customers with
@@ -289,9 +293,9 @@ const Softwares = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl pt-80 mx-auto flex">
+      <div className="max-w-6xl pt-80 mx-auto flex lg:flex-row md:flex-col">
         {/* left COl */}
-        <div className="flex flex-col w-1/2 justify-start pl-8 font-roboto">
+        <div className="flex flex-col lg:w-1/2 justify-start pl-8 font-roboto md:w-full">
           <h2 className="text-white text-[52px] py-3">Altanova</h2>
           <p className="text-white text-2xl">
             Auto-manage your company’s work log with an efficient and modern
@@ -299,7 +303,7 @@ const Softwares = () => {
             solutions and log management.
           </p>
 
-          <div className="mt-5">
+          <div className="mt-5 ">
             <button
               className="text-white border-2 text-[15px] font-body py-3 px-8 flex"
               data-aos="fade-up"
@@ -314,8 +318,12 @@ const Softwares = () => {
         </div>
 
         {/* Right Col */}
-        <div className="mx-auto">
-          <img src={HrScreen} alt="Close" className="w-[80%] h-auto mx-auto " />
+        <div className="mx-auto md:mt-5">
+          <img
+            src={HrScreen}
+            alt="Close"
+            className="w-[80%] md:w-[55%] h-auto mx-auto "
+          />
         </div>
       </div>
     </div>

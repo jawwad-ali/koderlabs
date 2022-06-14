@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Logo from "../assets/images/logo.png"; 
+import Logo from "../assets/images/logo.png";
 import { Squash as Hamburger } from "hamburger-react";
-import Sidebar from "./Sidebar"; 
+import Sidebar from "./Sidebar";
 
 const Nav = () => {
   const [isOpen, setOpen] = useState(false);
@@ -13,10 +13,10 @@ const Nav = () => {
             <a href="/">
               <img src={Logo} alt="KoderLabs" />
             </a>
-          </div> 
-          <div className="flex mr-16 ">
+          </div>
+          <div className="flex mr-16">
             <div>
-              <button className="outline-btn-primary text-sm text-black tracking-wide font-body font-bold hover:text-CustomPurple mt-1">
+              <button className="md:outline-btn-primary md:text-sm hidden text-black tracking-wide font-body font-bold hover:text-CustomPurple mt-1">
                 Start a Discussion
               </button>
             </div>
