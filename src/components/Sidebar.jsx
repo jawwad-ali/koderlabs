@@ -5,12 +5,12 @@ const Sidebar = () => {
   return (
     <>
       <div className="bg-half-transparent w-screen h-screen z-10 fixed nav-item top-0 right-0 overflow-y-scroll scrollbar-thin scrollbar-thumb-CustomPurple scrollbar-track-gray-100 md:w-[113vw]">
-        <div className="float-right h-auto pb-10 dark:text-gray-200 bg-white w-400 animateSidebar">
+        <div className="float-right h-auto pb-10 dark:text-gray-200 bg-white w-[375px] md:w-400 animateSidebar">
           <div className="w-full pr-24 flex text-3xl justify-end text-CustomPurple mt-8">
-            <FaRegWindowClose className="cursor-pointer mr-5" />
+            <FaRegWindowClose className="cursor-pointer md:mr-5 -mr-7" />
           </div>
-          <div className="flex flex-col flex-wrap pr-72 ml-6 justify-start w-400 ">
-            <ul className="font-roboto text-lg text-[#333] capitalize font-semibold cursor-pointer">
+          <div className="flex flex-col flex-wrap pr-72 ml-6 justify-start w-375 md:w-400 ">
+            <ul className="font-roboto text-lg text-[#333] capitalize font-semibold cursor-pointer w-[200px]">
               <li className="py-3 hover:text-CustomPurple duration-300">
                 About
               </li>
